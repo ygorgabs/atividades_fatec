@@ -28,14 +28,8 @@ void main()
         resultado = num1 * num2;
         break;
     case 4:
-        if (num2 != 0)
-        {
-            resultado = num1 / num2;
-        }
-        else
-        {
-            op_valida = false;
-        }
+        if (num2 != 0) resultado = num1 / num2;
+        else op_valida = false;
         break;
     default:
         op_valida = false;
