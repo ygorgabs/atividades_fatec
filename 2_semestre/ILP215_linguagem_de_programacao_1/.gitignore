@@ -1,4 +1,10 @@
-# arquivos permitidos
+# 1. Ignora todos os arquivos por padrão
+*
+
+# 2. NÃO ignora diretórios/subpastas (permite que o Git navegue por eles)
+!*/
+
+# 3. Libera os arquivos específicos em qualquer nível de subpasta
 !*.c
 !*.md
 !.gitignore
