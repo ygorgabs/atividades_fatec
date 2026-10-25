@@ -7,4 +7,5 @@
 # 3. Libera os arquivos específicos em qualquer nível de subpasta
 !*.c
 !*.md
+!*.h
 !.gitignore
