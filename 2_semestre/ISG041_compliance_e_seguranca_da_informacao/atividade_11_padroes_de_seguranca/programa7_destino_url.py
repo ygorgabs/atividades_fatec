@@ -25,6 +25,7 @@ for url in ["https://api.correios.com.br/cep/01310-100",
             "http://api.correios.com.br/cep/01310-100",
             "https://10.0.0.5/",
             "https://127.0.0.1/",
-            "https://outro-site.exemplo/"]:
+            "https://outro-site.exemplo/",
+            "https://api.correios.com.br.outro.exemplo/"]:
     ok, motivo = destino_permitido(url)
     print(f"{'PERMITE ' if ok else 'BLOQUEIA'}  {url:<42} {motivo}")

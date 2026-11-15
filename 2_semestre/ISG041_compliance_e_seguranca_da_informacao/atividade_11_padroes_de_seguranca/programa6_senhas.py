@@ -16,7 +16,7 @@ def guardar(senha):                              # nunca a senha: sal + hash len
     sal = os.urandom(16)
     return sal, hashlib.pbkdf2_hmac("sha256", senha.encode(), sal, 600_000)
 
-for s in ("123456", "fatec2026", "Primavera2026", "cafe com leite as 7h"):
+for s in ("123456", "fatec2026", "Primavera2026", "cafe com leite as 7h", "Fatec2026!"):
     problemas = avaliar(s)
     if problemas:
         print(f"REJEITADA  {s:<22} {'; '.join(problemas)}")

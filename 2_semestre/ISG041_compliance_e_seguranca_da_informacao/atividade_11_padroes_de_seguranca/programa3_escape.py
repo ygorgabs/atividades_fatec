@@ -4,7 +4,8 @@ import html
 
 comentarios = ["Produto otimo, recomendo!",
                "Achei <b>caro</b> demais",
-               'Veja minha loja: <a href="http://outro-site.exemplo">aqui</a>']
+               'Veja minha loja: <a href="http://outro-site.exemplo">aqui</a>',
+               "Nota: 5 > 4"]
 
 def pagina_insegura(c):
     return f"<p>{c}</p>"                      # o texto entra como esta

@@ -7,7 +7,7 @@ db.execute("CREATE TABLE clientes (nome TEXT, cidade TEXT)")
 db.executemany("INSERT INTO clientes VALUES (?, ?)",
                [("Ana Lima", "Sao Paulo"), ("Conor O'Brien", "Dublin"), ("Bruno Reis", "Recife")])
 
-busca = "O'Brien"                                   # entrada do usuario, com apostrofo
+busca = "Reis"                                   # entrada do usuario, com apostrofo
 
 # jeito ERRADO: a entrada vira parte do texto do comando
 sql = "SELECT nome, cidade FROM clientes WHERE nome LIKE '%" + busca + "%'"

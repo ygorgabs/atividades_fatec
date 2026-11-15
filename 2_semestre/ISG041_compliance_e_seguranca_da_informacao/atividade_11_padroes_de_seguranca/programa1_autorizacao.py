@@ -3,7 +3,7 @@
 pedidos = {101: {"dono": "ana",   "total": 250.0},
            102: {"dono": "bruno", "total":  80.0},
            103: {"dono": "ana",   "total":  15.0}}
-perfis = {"ana": "cliente", "bruno": "cliente", "carla": "atendente"}
+perfis = {"ana": "cliente", "bruno": "cliente", "carla": "cliente"}
 
 def pode_ver(usuario, id_pedido):
     pedido = pedidos.get(id_pedido)

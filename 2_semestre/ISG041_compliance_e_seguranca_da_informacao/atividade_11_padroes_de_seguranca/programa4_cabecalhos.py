@@ -3,8 +3,9 @@
 resposta = {                                   # cabecalhos devolvidos pelo servidor
     "Content-Type":    "text/html; charset=utf-8",
     "Server":          "Apache/2.4.29 (Ubuntu)",
-    "Set-Cookie":      "sessao=abc123; Path=/",
+    "Set-Cookie":      "sessao=abc123; Path=/; Secure; HttpOnly; SameSite=Lax",
     "X-Frame-Options": "DENY",
+    "Strict-Transport-Security": "max-age=31536000",
 }
 
 ESPERADOS = {

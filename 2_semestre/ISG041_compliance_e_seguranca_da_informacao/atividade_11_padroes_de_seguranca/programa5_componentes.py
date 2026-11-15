@@ -1,6 +1,6 @@
 # Aula 11 - Programa 5: componentes vulneraveis (A06 / cadeia de suprimentos)
 # Proposito: comparar as versoes instaladas com os boletins publicados - a analise de composicao de software (SCA) em miniatura.
-instalados = {"django": "3.2.4", "requests": "2.31.0", "pillow": "8.1.0", "jinja2": "3.1.2"}
+instalados = {"django": "3.2.25", "requests": "2.31.0", "pillow": "8.1.0", "jinja2": "3.1.2"}
 
 # boletins publicos: pacote -> (primeira versao corrigida, identificador, gravidade)
 boletins = {"django": ("3.2.25", "CVE-2024-27351", "alta"),
